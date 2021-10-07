@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+}
+.btn-success{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* Navbar and offcanvas styling */
+.navbar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.nav-item{
+    padding-left: 2rem;
+}
+
+.nav-link-hover:hover{
+    background-color:#ccf1ac;
+    color:#067A46;
+    border-left:2px solid #067A46;
+}
+.dropdown-item:hover{
+    background-color:#ccf1ac;
+    color:#067A46;
+    border-left:2px solid #067A46;
+}
+.me-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.offcanvas-body{
+    justify-content: space-between;
+}
+
+/* Main section styling */
+
+.main-section{
+    background-image: url("images/main/HFOPS_Antoni-HF-Homepage_Desktop+V3_2x.webp");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:45rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-section-container{
+    height:100%;
+    width:17rem;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: lighter;
+}
+.main-section-header{
+    color:#fff;
+    font-size:3.5rem;
+}
+.main-section-p{
+    color:#fff;
+    font-size:1.2rem;
+}
+.btn-success{
+    padding:0.8rem 2.3rem;
+}
+/* Description section */
+.header-description{
+    width:100%;
+    margin:0 auto;
+    padding-top:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#F8F8F8;
+
+}
+.cards{
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+    margin:1rem 0; 
+    height:15rem;
+    background-color:#F8F8F8;
+}
+
+.cards .card{
+    border:none;
+    text-align: center;
+    width:18rem;
+    height:12rem;
+    display:flex;
+    align-items: center;
+    background-color:#F8F8F8;
+
+}
+
+.cards .card img{
+    height:5rem;
+    width:5rem;
+}
+.cards .card-body .card-title{
+    font-size:1rem;
+    font-weight:700;
+}
+.cards .card-body .card-text{
+    font-size:0.9rem;
+    font-weight:500;
+}
+.header-description .btn-outline-success{
+    margin-bottom:2rem;
+    padding:0.8rem 3rem;
+}
+.footer-description{
+    height:27rem;
+    width:100%;
+    background-image:url("images/inside-box/HF_WIB_Evergreen_-_Desktop.webp");
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.footer-description-container{
+    height:27rem;
+    width:30rem;
+    background-color:#fff;
+    position:absolute;
+    left:52%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    padding:0 1rem;
+    font-weight:400;
+    line-height: 1.5;
+}
+.footer-description-container div div{
+    display:flex;
+}
+.footer-description-container div span {
+    color:#067A46;
+    padding-right:0.5rem;
+}
+
+/* Carousel section */
+.carousel-section {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+   background-color:#edfddd;
+   text-align: center;
+   padding:2rem 0;
+}
+.carousel-item{
+    height:30rem;
+    width:30rem;
+}
+.carousel-item img{
+width:100%;
+height:100%
+
+}
+.carousel-item p {
+    background-color:#067A46;
+    padding:1rem 0;
+    font-size:1.2rem;
+}
+.fas{
+    border:1px solid #067A46;
+    height:2rem;
+    width:2rem;
+    font-size:2rem;
+    color:#067A46;
+    border-radius:50%;
+}
+.carousel-control-prev{
+    margin-left:-4rem;
+}
+.carousel-control-next{
+    margin-right:-4rem;
+}
+.carousel-indicators{
+    margin-bottom:-3rem;
+    
+}
+.carousel-indicators .btn-indicator{
+    border-radius:50%;
+    background-color:#ccf1ac;
+    border:2px solid #067A46;
+    height:1rem;
+    width:1rem;
+}
+
+.carousel-section .btn-success{
+    margin-top:5rem;
+}
+/* Grid images */
+.grid-images{
+    text-align:center;
+    width:65%;
+    margin:0 auto;
+}
+.grid-images .title{
+    margin:2rem 0;
+    word-spacing: 0.3rem;
+}
+section .grid-images-container{
+    width:100%;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:0.5rem;
+}
+section .grid-images-container img{
+    height:18rem;
+    width:18rem;
+}
+section .grid-images-container img:hover{
+    opacity:0.8;
+   cursor: pointer;
+   background-color: #000;
+}
+.grid-images .follow{
+    margin:2rem 0;
+}
+
+.flexible-plans{
+    min-height:50rem;
+}
+
+.flexible-plans-header{
+    height:20rem;
+    background-image: url("images/footer/HFOPS_Antoni-HF-Homepage_Footer-DesktopV3.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:2rem 0;
+}
+.flexible-plans-header div{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:1.1rem;
+    width:30rem;
+    text-align:center;
+}
+
+.flexible-plans .questions{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:65%;
+    margin:0 auto;
+}
+
+.flexible-plans .questions .questions-title{
+    margin:1rem 0;
+}
+.flexible-plans .accordion{
+    width:100%;
+}
+.flexible-plans .accordion .accordion-item {
+    width:100%;
+}
+
+.socials{
+    height:5rem;
+    display:flex;
+    align-items: center;
+}
+.socials-container{
+    width:65%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials-list{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.socials-list li{
+    padding:0 2rem;
+}
+.socials-list li .fab{
+  font-size:2rem;
+}
+.socials-list li .fab:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+}
+.fa-facebook-square{
+    color:#3B5998;
+}
+.fa-twitter-square{
+    color:#1DA1F2;
+}
+.fa-instagram{
+    color:#c13584;
+}
+
+/* Media queries - responsiveness */
+
+@media only screen and (max-width:1198px){
+    /* responsive design for main section */
+    .main-section{
+        background-image:url("images/main/HFOPS_Antoni-HF-Homepage_Tablet+V3_2x.webp");
+        position: relative;
+    }
+    .main-section-container{
+        width:14rem;
+        position:absolute;
+        top:-5rem;
+    }
+    .main-section-header{
+        font-size:2.3rem;
+        font-weight: lighter;
+    }
+    .main-section-p{
+        font-size:1rem;
+        font-weight: bold;
+    }
+
+    /* responsive design for description section */
+    .cards{
+        width:100%;
+        justify-content: space-around;
+    }
+    
+    .footer-description-container{
+        width:25rem;
+        font-size:1rem;
+    
+    }
+    .footer-description-container div{
+        width:95%;
+        font-size:0.9rem;
+    }
+
+    section .grid-images{
+        width:100%; 
+    }
+    section .grid-images-container{
+        width:100%;
+    }
+    section .grid-images-container img{
+        height:13rem;
+        width:15rem;
+    }
+
+.flexible-plans-header{
+    background-image:url("images/footer/HFOPS_Antoni-HF-Homepage_Footer-TabletV3.webp");
+    background-position-x: center;
+}
+}
+
+@media only screen and (max-width:776px){
+    /* responsive design for main section */
+
+    .main-section{
+        min-height:32rem;
+        background-image: url("images/main/702893288_HFIM_HFxAntoni-HomepageImageUpdate_2021-06_Mobile_V2_2x.webp");
+        background-size: cover;
+    }
+    .main-section-container{
+        width:17rem;
+        top:-7rem;
+    }
+    .main-section-header{
+        font-size:2rem;
+        font-weight: lighter;
+    }
+    .main-section-p{
+       display: none;
+    }
+    /* responsive design for description section */
+    
+    .cards{
+        flex-direction: column;
+        height:100%;
+        width:100%;
+    }
+    .cards .card{
+        flex-direction: row;
+        height:7rem;
+        width:95%;
+        margin-left:1.5rem;
+    }
+    .card-body{
+        width:100%;
+        text-align: left;
+
+    }
+    .footer-description{
+        background-image:url("images/inside-box/HF_WIB_Evergreen_-_Mobile.jpg");
+        background-size:cover;
+        height:20rem;
+    }
+    .footer-description-container{
+        left:0;
+        top:20rem;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-description-container div{
+        width:20rem;
+    }
+    .carousel-section{
+        position: relative;
+        top:25rem;
+    }
+    .carousel-section .carousel-item{
+        height:20rem;
+        width:20rem;
+    }
+    .carousel-section .carousel-item p {
+       display:none;
+    }
+    .grid-images{
+    margin-top:25rem;
+    }
+    section .grid-images-container {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:repeat(3,1fr);
+    }
+    .grid-images-container img:nth-child(7){
+        display:none;
+    }
+    .grid-images-container img:nth-child(8){
+        display:none;
+    }
+
+}
+@media only screen and (max-width:490px){
+    .carousel-section .carousel-item{
+        height:15rem;
+        width:15rem;
+    }
+
+    section .grid-images-container {
+        grid-template-rows:repeat(2,1fr);
+    }
+    section .grid-images-container img{
+       height:10rem;
+    }
+    .grid-images-container img:nth-child(5){
+        display:none;
+    }
+    .grid-images-container img:nth-child(6){
+        display:none;
+    }
+
+    .flexible-plans-header{
+        background-image:url("images/footer/HFOPS_Antoni-HF-Homepage_Footer-MobileV3.webp");
+        background-position-x: center;
+    }
+    .socials-container{
+        width:100%;
+    }
+    .socials-list{
+        justify-content: flex-start;
+        padding:0;
+    }
+}
